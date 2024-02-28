@@ -1,0 +1,21 @@
+/* CSS anterior mantido */
+
+#postForm {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #postText {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  #postImage {
+    margin-bottom: 10px;
+  }
+  
+  #timeline {
+    margin-top: 20px;
+  }
+  
