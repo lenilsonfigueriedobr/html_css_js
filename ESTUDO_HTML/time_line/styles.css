@@ -19,3 +19,12 @@
     margin-top: 20px;
   }
   
+  .post-content img {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px; /* Definindo uma altura máxima para a imagem */
+  }
+
+  .container {
+    margin: 100px;
+  }
