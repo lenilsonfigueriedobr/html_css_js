@@ -9,7 +9,29 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
+}
+
+main{
+  background-color: blueviolet;
+  color: white;
+  padding-top: 16px;
+  width: 700px;
+  margin: auto;
+}
+
+section{
+  display: flex;
+  
+}
+
+div{
+  display: flex;
+  background-color: orange;
+  margin: 300px;
+  width: 200px;
+  padding: 10px;
+  align-items:baseline;
 }
 
 nav {
