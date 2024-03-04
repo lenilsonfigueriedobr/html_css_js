@@ -10,3 +10,11 @@ Desafios:
 
 - alterar a cor das fontes para branco
 - remover o espaço em branco entre o header e a tag main
+
+
+Aula 19 - prática guiada 2:
+
+Alinhe as tags h1 e h2 com a primeira div, escolhendo propriedades apropriadas para a tag main
+aplique a propriedade adequada para que as div's tenham os cantos das bordas arredondados
+
+Desafio: defina tamanhos para as fontes
