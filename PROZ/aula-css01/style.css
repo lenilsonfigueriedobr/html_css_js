@@ -1,0 +1,30 @@
+h1 {
+    color: blue
+    background-color: #a2a2ca;
+}
+
+div {
+    background-color: lightgray;
+    margin: 40px;
+    padding: 20px;
+    border: solid black 8px;
+}
+
+#caixa-meio {
+    background-color: lightcoral;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+
+    margin-top: 80px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+
+    border: 20px solid green;
+}
+
+p {
+    background-color: rgb(20, 200, 80);
+}
