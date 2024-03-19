@@ -1,0 +1,50 @@
+<!-- Aula 23 - Prática guiada 1:
+
+- remova as classes `error`, `correct` e `visible` dos elementos do formulário
+- crie um arquivo script.js, com uma variável para manipular o elemento h2 
+- altere a cor e o tamanho da fonte desse elemento usando a propriedade `style`
+
+Desafio: seguindo o mesmo padrão, faça alterações na estilização do botão de envio do formulário -->
+
+<!-- Aula 23 - Prática guiada 2 - Imaginando que alguém tenha digitado um nome de usuário inválido no formulário, faça o seguinte:
+
+crie uma variável para manipular o input do nome de usuário
+adicione a classe error a esse elemento
+repetindo o exemplo das etapas anteriores, adicione a classe visible ao parágrafo da mensagem de erro
+
+Aula 23 - Prática guiada 3 - Imagine que o mesmo visitante da prática anterior tenha corrigido o nome de usuário, porém preenchido a senha incorretamente:
+
+remova a classe error do input de usernamen, adicionando em seguida a classe correct
+remova a classe visible do elemento da mensagem de erro
+seguindo o mesmo padrão, faça as mudanças de estilização apropriadas no campo da senha -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Style e ClassList</title>
+</head>
+<body>
+  <main>
+    <section id="login">
+      <h2>Login</h2>
+      <form action="">
+        <label for="login-usuario">Nome de usuário:</label>
+        <input type="text" id="login-usuario" name="login-usuario">
+        <p class="error-text">*Usuário inválido</p>
+
+        <label for="login-senha">Senha:</label>
+        <input type="password" id="login-senha" name="login-senha">
+        <p class="error-text">*Sennha incorreta</p>
+
+        <button type="button">Fazer login</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
